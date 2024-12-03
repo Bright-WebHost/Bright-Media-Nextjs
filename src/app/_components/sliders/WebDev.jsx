@@ -99,7 +99,7 @@ const WebDev = ( { bgStyle = "default", paddingTop = "10" } ) => {
         </Link>
               </div>
               <div className="col-lg-4">
-              <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+              <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                               <img src='./img/covers/project/kaiser.webp' alt='img' />
                               <div className="mil-project-descr2">
                                   <h4 className="mil-upper mil-text-sm">kaiser</h4>
