@@ -2,7 +2,7 @@
   "name": "ruizarch-nextjs",
   "version": "1.0.2",
   "private": true,
-  "homepage": "https://ismail-is.github.io/Bright-Media-website",
+  "homepage": "https://Bright-WebHost/Bright-Media-Nextjs",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
