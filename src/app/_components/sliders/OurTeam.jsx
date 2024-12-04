@@ -71,7 +71,7 @@ const OurTeam = ({ categories }) => {
       <div className="mil-avatar mil-mb-30">
         <img src="./img/allimg/Team/shamal.webp" alt="Placeholder Image" />
       </div>
-      <h6 className="mil-upper mil-mb-10">Shamal Hussain Manager
+      <h6 className="mil-upper mil-mb-10">Shamal Hussain 
 
 </h6>
       <p className="mil-dark-soft">Manager</p>
