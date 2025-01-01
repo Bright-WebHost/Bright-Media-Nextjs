@@ -4,7 +4,7 @@ import "./globals.css";
 import "@styles/css/plugins/bootstrap-grid.css";
 import "@styles/css/plugins/swiper.min.css";
 import "@styles/css/plugins/magnific-popup.css";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { register } from "swiper/element/bundle";
 // register Swiper custom elements
 register();
@@ -26,6 +26,9 @@ const Layouts = ({
 }) => {
   return (
     <html lang="en">
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PVC62L8QP"></script>
+      </head>
       <body>
         <div className="mil-wrapper">
           {children}
@@ -33,6 +36,7 @@ const Layouts = ({
           <ScrollbarProgress />
         </div>
       </body>
+      <GoogleAnalytics gaId="G-5PVC62L8QP" />
     </html>
   );
 };
