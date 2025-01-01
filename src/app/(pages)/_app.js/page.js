@@ -1,15 +1,17 @@
-// pages/_app.js
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import Script from 'next/script';
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
+    if (typeof window !== 'undefined') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-5PVC62L8QP');
+      console.log("Google Analytics initialized.");
     }
-    gtag('js', new Date());
-    gtag('config', 'G-5PVC62L8QP');
   }, []);
 
   return (
@@ -23,5 +25,3 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp;
