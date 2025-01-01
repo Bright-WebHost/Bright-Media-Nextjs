@@ -27,7 +27,6 @@ const Layouts = ({
   return (
     <html lang="en">
       <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PVC62L8QP"></script>
       </head>
       <body>
         <div className="mil-wrapper">
