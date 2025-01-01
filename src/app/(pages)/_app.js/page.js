@@ -1,22 +1,27 @@
+// pages/_app.js
+import React, { useEffect } from 'react';
 import Script from 'next/script';
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-5PVC62L8QP');
+  }, []);
+
   return (
     <>
-      {/* Google Analytics Script */}
+      {/* Add Google Tag Manager */}
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=G-5PVC62L8QP`}
-        strategy="afterInteractive"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-5PVC62L8QP"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-5PVC62L8QP');
-        `}
-      </Script>
       <Component {...pageProps} />
     </>
   );
 }
+
+export default MyApp;
