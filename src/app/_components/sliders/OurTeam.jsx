@@ -44,6 +44,7 @@ const OurTeam = ({ categories }) => {
 <div className="mil-center mil-mb-10">
     <span className="mil-suptitle mil-upper mil-up mil-mb-30" >Our Team</span>
     <h2 className="mil-upper mil-up mil-mb-30">Meet the Team Behind  <span class="mil-marker">Our Success</span></h2>
+    <h5 className="mil-upper mil-up mil-mb-30 " > The company is owned by <span class="mil-marker">Aboobakker Sadik    </span></h5>
     {/* <p className="mil-up" ></p> */}
 </div>
 
