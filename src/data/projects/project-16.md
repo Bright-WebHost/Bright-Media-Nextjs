@@ -12,7 +12,7 @@
 url: /Istanbul 
 title:  Istanbul Sofrasi 
 image: ./img/covers/project/hafil.webp
-category:  Restarant 
+category:  Restaurant 
 category1: category1
 category_slug: Web
 date: may 24 2023
