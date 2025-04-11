@@ -177,7 +177,7 @@ const AllProjects = () => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
                        
@@ -313,7 +313,7 @@ const AllProjects = () => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                             
                             <Link href='/MCM'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30">
@@ -646,7 +646,7 @@ const AllProjects = () => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
                         <div className="col-md-6 col-lg-3" >
@@ -659,7 +659,7 @@ const AllProjects = () => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
 
@@ -935,7 +935,7 @@ const AllProjects = () => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
                        

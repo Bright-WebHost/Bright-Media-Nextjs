@@ -291,7 +291,7 @@ const OurProjects = ( { projects } ) => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
                         <div className="col-md-6 col-lg-3" >
@@ -304,7 +304,7 @@ const OurProjects = ( { projects } ) => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                         </div>
 

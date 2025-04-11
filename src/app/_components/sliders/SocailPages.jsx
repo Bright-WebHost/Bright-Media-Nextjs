@@ -195,7 +195,7 @@ const SocailPages = ( { bgStyle = "default", paddingTop = "10" } ) => {
                                     {/* <p> Battery and Tyre Manufacturers  </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category">Restarant</div>
+                                <div className="mil-category">Restaurant</div>
                             </Link>
                 </div>
                 <div className="col-lg-4">
