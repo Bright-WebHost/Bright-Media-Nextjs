@@ -68,13 +68,14 @@ const contact = () => {
     <li>New York - 1800 Wazee Street</li>
     <li>Suite 300 NY, NY 80202</li>
 </ul> */}
-<h6 className="mil-upper mil-up mil-mb-20">Phone</h6>
-<ul className="mil-list mil-dark mil-up mil-mb-20">
-<li> <a href="https://wa.me/22597979387" target="_blank">+225 97 97 93 87</a></li>
-<li> <a href="https://wa.me/910797979387" target="_blank">+91 0797 979 387</a></li>
+<h6 className="mil-upper mil-up mil-mb-10">Phone</h6>
+<ul className="mil-list mil-dark mil-up mil-mb-10">
+<li> <a href="https://wa.me/917795240605" target="_blank">+917 795 240 605</a></li>
+<li> <a href="https://wa.me/2250797979387" target="_blank">+225 079 797 9387</a></li>
+<li> <a href="https://wa.me/971545681182" target="_blank">+971 545 681 182</a></li>
 
 </ul>
-<h6 className="mil-upper mil-up mil-mb-20">Email</h6>
+<h6 className="mil-upper mil-up mil-mb-10">Email</h6>
 <ul className="mil-list mil-dark mil-up">
     <li><a href="mailto:info@brightmedia.tech">info@brightmedia.tech</a></li>
     <li><a href="mailto:hello@brightmedia.tech">hello@brightmedia.tech</a></li>
