@@ -35,23 +35,26 @@ const DefaultFooter = () => {
                             </div>
 
                         </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
+                        <div className="col-md-6 col-lg-6 col-xl-3" >
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">INDIA</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30"> 2nd Floor, Janapriya Complex, State Bank, Mangalore</p>
+                            <p style={{marginTop:'-20px'}}><a href="https://wa.me/917795240605" target="_blank" className="mil-text-sm mil-up mil-light-soft mil-mb-30 ">+917 795 240 605</a></p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">IVORY COAST</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">11 BP 2498- 11, 4th Floor, Waimea Bldg, Marcory Boulevard VGE, Abidjan, Côte d'Ivoire</p>
+                            <p style={{marginTop:'-20px'}}> <a href="https://wa.me/+2250797979387" target="_blank" className="mil-text-sm mil-up mil-light-soft mil-mb-30 ">+225 079 797 9387</a></p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">UAE</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates</p>
+                             <p style={{marginTop:'-20px'}}><a href="https://wa.me/+971545681182" target="_blank" className="mil-text-sm mil-up mil-light-soft mil-mb-30 ">+971 545 681 182</a></p>
                         </div>
-                        <div className="col-md-6 col-lg-6 col-xl-3">
+                        {/* <div className="col-md-6 col-lg-6 col-xl-3">
                             <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">QATAR</span>
                             <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
                             Doha-Qatar </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="col-lg-4">

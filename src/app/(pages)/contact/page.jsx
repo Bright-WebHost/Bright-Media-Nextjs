@@ -129,12 +129,12 @@ const contact = () => {
                                     <p className="mil-up">Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates</p>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            {/* <div className="col-lg-3">
                                 <div className="mil-up mil-mb-60">
                                     <span className="mil-suptitle mil-upper mil-up mil-mb-30">QATAR</span>
                                     <p className="mil-up">Doha-Qatar</p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
